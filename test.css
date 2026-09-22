@@ -1,14 +1,39 @@
 body {
+	background-color: azure;
 	text-align: center;
-	background-color: gray;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0 auto;
 }
 
 .container {
-	background-color: white;
+	background-color: dodgerblue;
+	display: flex;
+	flex-direction: column;
+	width: 20rem;
+	padding: 0.5rem;
 }
 
 .container > div {
-	background-color: black;
+	line-height: 1.5rem;
+	padding: 0.3rem;
+	padding-top: 0.1rem;
+	padding-bottom: 0.1rem;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	margin-top: 0.2rem;
+	margin-bottom: 0.2rem;
+	background-color: mediumblue;
 	color: white;
 	border-radius: 0.5rem;
+}
+
+a {
+	color: inherit;
 }
