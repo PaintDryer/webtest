@@ -3,3 +3,12 @@ body {
 	background-color: gray;
 }
 
+.container {
+	background-color: white;
+}
+
+.container > div {
+	background-color: black;
+	color: white;
+	border-radius: 0.5rem;
+}
