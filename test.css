@@ -1,40 +1,20 @@
-html, body {
-	background-color: lightskyblue;
-	text-align: center;
-	font-family: "Arial", sans-serif;
+body {
+	height: 100vh;
+	width: auto;
+	display: flex;
+	justify-content: center;
 }
 
 main {
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
 	align-items: center;
-	height: 100vh;
-	margin: 0 auto;
+	justify-content: center;
 }
 
-.container {
-	background-color: dodgerblue;
-	display: flex;
-	flex-direction: column;
-	width: 20rem;
-	padding: 0.5rem;
+.centred {
+	text-align: center;
 }
 
-.container > div {
-	line-height: 1.5rem;
-	padding: 0.3rem;
-	padding-top: 0.1rem;
-	padding-bottom: 0.1rem;
-	margin-left: 0.5rem;
-	margin-right: 0.5rem;
-	margin-top: 0.2rem;
-	margin-bottom: 0.2rem;
-	background-color: mediumblue;
-	color: azure;
-	border-radius: 0.5rem;
-}
-
-a {
-	color: inherit;
+.shadow-hover:hover {
+	box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.25);
 }
